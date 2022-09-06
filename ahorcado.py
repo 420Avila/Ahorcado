@@ -4,7 +4,6 @@ import string
 from palabras import palabras
 from ahorcado_diagramas import vidas_diccionario_visual
 
-
 def obtener_palabra_válida(palabras):
     # seleccionar una palabra al azar de la lista
     palabra = random.choice(palabras)  
@@ -18,7 +17,15 @@ def obtener_palabra_válida(palabras):
 
 
 def ahorcado():
-
+print()
+print(" _  _ ___   ___              _ _       ")
+print("| || |__ \ / _ \            (_) |      ")
+print("| || |_ ) | | | | __ ___   ___| | __ _ ")
+print("|__   _/ /| | | |/ _` \ \ / / | |/ _` |")
+print("   | |/ /_| |_| | (_| |\ V /| | | (_| |")
+print("   |_|____|\___/ \__,_| \_/ |_|_|\__,_|")
+print()
+print() 
     print("=======================================")
     print(" ¡Bienvenido(a) al juego del Ahorcado! ")
     print("=======================================")
